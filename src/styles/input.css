@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.parent{@apply font-curry py-3 pb-[20em] bg-slate-50 w-[100%] h-[100%] }
+.doug{@apply overflow-hidden rounded-[.7em] pb-9 max-w-[400px] mx-auto  h-[650px] bg-gray-300 }
+.bro{@apply w-full h-[35%]  rounded-b-[9em] bg-black}
+.daniel {@apply relative mt-[-13em] rounded-[.8em] mx-auto w-[80%] h-[18em] bg-purple-700}
+.hello{@apply bg-white w-[87%] flex  items-center justify-center rounded-full absolute -bottom-5 left-5 h-[15%]}
+.setemi{@apply text-center font-bold text-xl }
+.kid{@apply flex ml-[2.5em]  mt-[3.5em] w-[80%] mx-auto gap-4}
+.howfar{@apply flex flex-col gap-1  w-[50%] rounded-lg bg-white h-[14em]}
+.sup {@apply  w-[50%] rounded-lg bg-white h-[14em]}
+.inp[type="file"]{@apply hidden  }
+.ing{@apply w-[100%] h-[max-content] pb-2 font-extralight text-slate-400 text-[1.1rem] }
+.labeller{@apply h-[max-content] text-[1rem] font-bold}
+img{@apply z-30}
